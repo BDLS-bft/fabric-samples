@@ -24,6 +24,11 @@ then
     profile="ChannelUsingBFT"
     ordererType="BFT"
     export FABRIC_CFG_PATH="${PWD}/bft-config"
+elif [ $# -gt 0 ] && [ "$1" = "bdls" ] 
+then
+	profile="SampleDevModeBdls"
+    ordererType="bdls"
+    export FABRIC_CFG_PATH="${PWD}/bdls-config"
 else
     profile="ChannelUsingRaft"
 fi
