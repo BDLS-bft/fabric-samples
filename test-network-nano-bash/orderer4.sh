@@ -22,7 +22,7 @@ export ORDERER_CHANNELPARTICIPATION_ENABLED=true
 export ORDERER_FILELEDGER_LOCATION="${PWD}"/data/orderer4
 if [ $# -gt 0 ]
 then
-    if [ "$1" != "BFT" ] && [ "$1" != "etcdraft" ]
+    if [ "$1" != "BFT" ] && [ "$1" != "etcdraft" ] && [ "$1" != "Bdls" ]
     then
         echo "Unsupported input consensus type ${1}"
         exit 1
