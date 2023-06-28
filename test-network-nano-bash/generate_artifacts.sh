@@ -27,7 +27,7 @@ then
 elif [ $# -gt 0 ] && [ "$1" = "bdls" ] 
 then
 	profile="SampleDevModeBdls"
-    ordererType="bdls"
+    ordererType="Bdls"
     export FABRIC_CFG_PATH="${PWD}/bdls-config"
 else
     profile="ChannelUsingRaft"

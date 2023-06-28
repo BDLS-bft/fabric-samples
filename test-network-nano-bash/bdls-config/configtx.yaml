@@ -517,7 +517,6 @@ Profiles:
           # OrdererType: Bdls
             Organizations:
                 - <<: *OrdererOrg
- 
         Application:
             <<: *ApplicationDefaults
             Organizations:
@@ -533,7 +532,6 @@ Profiles:
             OrdererType: Bdls
             Organizations:
                 - <<: *OrdererOrg
-
         Application:
             <<: *ApplicationDefaults
             Organizations:
