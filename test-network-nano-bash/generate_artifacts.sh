@@ -26,7 +26,7 @@ then
     export FABRIC_CFG_PATH="${PWD}/bft-config"
 elif [ $# -gt 0 ] && [ "$1" = "bdls" ] 
 then
-	profile="SampleDevModeBdls"
+    profile="SampleDevModeBdls"
     ordererType="Bdls"
     export FABRIC_CFG_PATH="${PWD}/bdls-config"
 else
